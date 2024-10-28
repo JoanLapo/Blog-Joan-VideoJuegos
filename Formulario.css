@@ -1,0 +1,64 @@
+form {
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 30px ;
+    width: 1000px;
+    margin: auto;
+    border: 100px;
+    border-radius: 100px;
+}
+body {
+    background-color: darkseagreen;
+}
+.Formulario {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.NombreyApellido {
+    padding: 15px;
+}
+.NombreyApellido input {
+    padding: 15px;
+    border: 2px solid;color: black;
+    border-radius: 100px;
+    width: 400px;
+}
+.NúmeroDeTeléfono {
+    padding: 15px;
+}
+.NúmeroDeTeléfono input {
+    padding: 15px;
+    border: 2px solid;color: black;
+    border-radius: 100px;
+    width: 400px;
+}
+.CorreoElectrónico {
+    padding: 15px;
+}
+.CorreoElectrónico input {
+    padding: 15px;
+    border: 2px solid;color: black;
+    border-radius: 100px;
+    width: 400px;
+}
+.FechaDeNacimiento {
+    padding: 15px;
+}
+.FechaDeNacimiento input {
+    padding: 15px;
+    border: 2px solid;color: black;
+    border-radius: 100px;
+    width: 400px;
+}
+.Enviar button {
+    background-color: red;
+    transition: 0.5s;
+    cursor: pointer;
+    padding: 15px;
+    border: 2px solid;color: black;
+    border-radius: 100px;
+    width: 100px;
+}
+.Enviar button:hover {
+    background-color: gray;
+}
