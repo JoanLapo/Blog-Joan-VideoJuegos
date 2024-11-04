@@ -1,0 +1,31 @@
+body {
+    background-color: purple;
+}
+.titulo {
+    border-radius: 100px;
+    margin: auto;
+    border-color: solid black;
+    width: 1000px;
+    padding: 30px;
+    align-items: center;
+    text-align: center;
+    background-image: url(fondo-controlador-videojuego-futurista-espacio-texto_1017-54730.avif);
+    background-size: 400px;
+}
+.titulo h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 70px;
+    color: violet;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(168, 0, 98);
+}
+@keyframes animation {
+    0% {transform: translate(0,0); }
+    25% {transform: translate(100px,0); }
+    50% {transform: translate(100px,-100px); }
+    75% {transform: translate(-100px,100px); }
+    100% {transform: translate(0,0); }
+}
+.titulo {
+    animation: animation 10s infinite;
+}
